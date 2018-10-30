@@ -1,0 +1,19 @@
+//for source
+ WebElement from= driver.findElement(By.id("autocomplete_source"));
+      from.clear();
+      from.sendKeys(FromCity);
+      Thread.sleep(3000);
+      Actions builder=new Actions(driver);
+      builder.moveToElement( from.findElement(By.xpath("//*[@class='acResults']/ul/li[1]/span"))).click().build().perform();
+
+//for destination
+
+ WebElement to=driver.findElement(By.id("autocomplete_dest"));
+      to.clear();
+      driver.findElement(By.id("autocomplete_dest")).sendKeys(ToCity);
+builder.sendKeys(Keys.ARROW_DOWN).click().build().perform();
+      WebDriverWait wait=new WebDriverWait(driver, 90);
+wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*        [@class='acResults']/ul/li/span")));
+     to=driver.findElement(By.cssSelector(".acResults>ul>li>span"));
+      Thread.sleep(2000);
+          to.click();

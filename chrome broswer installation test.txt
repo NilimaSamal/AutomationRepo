@@ -1,0 +1,10 @@
+https://github.com/SeleniumHQ/selenium/wiki/ChromeDriver
+http://chromedriver.storage.googleapis.com/index.html
+webdriver.chrome.driver
+
+The ChromeDriver consists of three separate pieces. 
+There is the browser itself ("chrome"), the language bindings provided by 
+the Selenium project ("the driver") and an executable downloaded from the 
+Chromium project which acts as a bridge between "chrome" and the "driver". 
+This executable is called "chromedriver", but we'll try and refer to it as
+ the "server" in this page to reduce confusion.

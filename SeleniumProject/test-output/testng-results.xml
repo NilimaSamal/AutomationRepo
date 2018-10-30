@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54" started-at="2018-10-30T13:23:59Z" finished-at="2018-10-30T13:24:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54" started-at="2018-10-30T13:23:59Z" finished-at="2018-10-30T13:24:00Z">
+      <class name="com.acttime.studenttest.BcAcTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.acttime.studenttest.BcAcTest@6767c1fc]" name="configBC" is-config="true" duration-ms="15" started-at="2018-10-30T18:53:59Z" finished-at="2018-10-30T18:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="createCustomerTest()[pri:1, instance:com.acttime.studenttest.BcAcTest@6767c1fc]" name="createCustomerTest" duration-ms="8" started-at="2018-10-30T18:53:59Z" finished-at="2018-10-30T18:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomerTest -->
+        <test-method status="PASS" signature="modifyCustomerTest()[pri:2, instance:com.acttime.studenttest.BcAcTest@6767c1fc]" name="modifyCustomerTest" duration-ms="2" started-at="2018-10-30T18:53:59Z" finished-at="2018-10-30T18:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyCustomerTest -->
+        <test-method status="PASS" signature="deleteCustomerTest()[pri:3, instance:com.acttime.studenttest.BcAcTest@6767c1fc]" name="deleteCustomerTest" duration-ms="2" started-at="2018-10-30T18:53:59Z" finished-at="2018-10-30T18:53:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteCustomerTest -->
+        <test-method status="PASS" signature="configAC()[pri:0, instance:com.acttime.studenttest.BcAcTest@6767c1fc]" name="configAC" is-config="true" duration-ms="0" started-at="2018-10-30T18:54:00Z" finished-at="2018-10-30T18:54:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.acttime.studenttest.BcAcTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
